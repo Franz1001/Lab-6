@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <script src="sign.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>Sign Up</header>
+    <div class="container">
+        <form id="myForm">
+
+            <div class="first">
+                <input type="text" placeholder="First Name" id="firstName">
+            </div>
+            <div class="Middle">
+                <input type="text" placeholder="Middle Name" id="middleInitial">
+            </div>
+            <div class="Last">
+                <input type="text" placeholder="Last Name" id="lastName">
+            </div>
+            <div class="Email">
+                <input type="email" placeholder="Email Address" id="email">
+            </div>
+
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+            <div class="button">
+                <button type="reset" id="resetButton">Reset</button>
+            </div>
+        </form>
+    </div>
+    <div id="successMessage" style="display: none;">
+        Congratulations! You have successfully signed up.
+    </div>
+
+</body>
+</html>
